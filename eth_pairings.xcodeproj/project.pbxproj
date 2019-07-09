@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8113D08E22D51CEA00F31464 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8113D08D22D51CEA00F31464 /* main.cpp */; };
+		8113D09622D51D1C00F31464 /* little-big-int.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8113D09422D51D1C00F31464 /* little-big-int.cpp */; };
+		8113D09922D51DD400F31464 /* representation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8113D09722D51DD400F31464 /* representation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		8113D08A22D51CEA00F31464 /* eth_pairings */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = eth_pairings; sourceTree = BUILT_PRODUCTS_DIR; };
 		8113D08D22D51CEA00F31464 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8113D09422D51D1C00F31464 /* little-big-int.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "little-big-int.cpp"; sourceTree = "<group>"; };
+		8113D09522D51D1C00F31464 /* little-big-int.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = "little-big-int.hpp"; sourceTree = "<group>"; };
+		8113D09722D51DD400F31464 /* representation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = representation.cpp; sourceTree = "<group>"; };
+		8113D09822D51DD400F31464 /* representation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = representation.hpp; sourceTree = "<group>"; };
+		8113D09B22D51F0300F31464 /* arithmetic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = arithmetic.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,11 @@
 			isa = PBXGroup;
 			children = (
 				8113D08D22D51CEA00F31464 /* main.cpp */,
+				8113D09422D51D1C00F31464 /* little-big-int.cpp */,
+				8113D09522D51D1C00F31464 /* little-big-int.hpp */,
+				8113D09722D51DD400F31464 /* representation.cpp */,
+				8113D09822D51DD400F31464 /* representation.hpp */,
+				8113D09B22D51F0300F31464 /* arithmetic.hpp */,
 			);
 			path = eth_pairings;
 			sourceTree = "<group>";
@@ -119,6 +131,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8113D08E22D51CEA00F31464 /* main.cpp in Sources */,
+				8113D09622D51D1C00F31464 /* little-big-int.cpp in Sources */,
+				8113D09922D51DD400F31464 /* representation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
